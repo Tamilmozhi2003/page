@@ -1,5 +1,6 @@
 {
   "name": "page",
+  "homepage": "https://github.com/Tamilmozhi2003.github.io/page",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview", 
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d dist"
+  
   },
   "dependencies": {
     "bootstrapp": "^0.0.0",
